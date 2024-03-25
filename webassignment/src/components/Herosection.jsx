@@ -1,10 +1,12 @@
 function Herosection() {
   return (
     <>
-      <div>
-        <div>
-          Coding fascinates us. However, imagine there also being an AI to
-          assist with your coding?
+      <div className="hero">
+        <div className="hero-text">
+          Coding fascinates us.
+          <br />
+          However, imagine there also being
+          <br /> an AI to assist with your coding?
         </div>
       </div>
     </>
