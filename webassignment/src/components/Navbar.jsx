@@ -3,15 +3,28 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <div className="navbar-section">
-        <div className="logo-name">Designluch</div>
-        <ul>
-          <li>About</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Pricing</li>
-        </ul>
-      </div>
+      <nav className="navbar">
+        <div className="navdiv">
+          <div className="logo">
+            <a href="#">Designluch</a>
+          </div>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <button>Sign up</button>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 }
